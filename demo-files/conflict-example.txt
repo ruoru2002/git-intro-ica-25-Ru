@@ -1,0 +1,44 @@
+# Conflict Resolution Practice File
+
+This file is designed to help you practice resolving merge conflicts.
+
+## Current Content (Main Branch)
+
+This is the original content that exists on the main branch.
+Students should modify this section to create conflicts.
+
+### Features
+- Basic functionality
+- Simple interface
+- Easy to use
+
+### TODO List
+- Add more features
+- Improve documentation
+- Fix bugs
+
+### Notes
+This is a collaborative file where multiple students can work together.
+Each student should create their own branch and make changes to this file.
+Then, when merging back to main, conflicts will occur that need to be resolved.
+
+## Instructions for Conflict Practice
+
+1. Create a new branch: `git checkout -b feature/your-name`
+2. Edit this file and add your own section
+3. Commit your changes: `git commit -am "Add my section"`
+4. Switch back to main: `git checkout main`
+5. Have another student make changes to the same area
+6. Try to merge your branch: `git merge feature/your-name`
+7. Resolve the conflicts that appear
+8. Complete the merge
+
+## Tips for Conflict Resolution
+
+- Look for the conflict markers: <<<<<<<, =======, >>>>>>>
+- Decide which changes to keep, or combine them
+- Remove the conflict markers
+- Test your changes
+- Commit the resolved conflicts
+
+Good luck with your Git practice! 
